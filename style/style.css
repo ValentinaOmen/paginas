@@ -102,7 +102,7 @@ form textarea:focus {
   outline: none;
 }
 
-form input[type="submit"] {
+form button[type="button"] {
   background-color: rgb(255, 6, 6);
   color: var(--button-text-color);
   border: none;
@@ -113,10 +113,11 @@ form input[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
-form input[type="submit"]:hover {
-  background-color: grey;
+form button[type=button]:hover {
+  background-color: rgb(83, 82, 82);
 }
 footer {
+  background-color: white; /*este es para que el fuder que dentro de la oja*/
   display: flex;  
   padding: 20px  ;
   color: #040404;
@@ -130,7 +131,6 @@ footer img {
   margin-right: 10px;
   
 }
-
 
 footer h4 {
   margin: 0;
