@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   color: #333;
 }
 
@@ -20,19 +20,11 @@ header h1 {
   font-size: 2em;
 }
 
-header nav {
-  margin-top: 1em;
-}
 
 header nav a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   margin: 0 1em;
-  font-weight: bold;
-}
-
-header nav a:hover {
-  text-decoration: underline;
 }
 
 /* Estilos para el contenido principal */
@@ -46,14 +38,12 @@ main {
 
 main p {
   line-height: 1.6;
-  margin-bottom: 2em;
 }
 
 /* Estilos para las imágenes */
 main img {
   display: inline-block;
   margin-right: 1em;
-  margin-bottom: 1em;
   border-radius: 8px;
 }
 
@@ -63,17 +53,14 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
+/*desde aqui comiensa el formulario*/
 .container {
   padding: 2em;
-  background-color: rgb(242, 254, 250);
+  background-color: rgb(255, 255, 255);
   box-shadow: 10px black;
   border-radius: 10px;
   max-width: 600px;
   margin: 0 auto;
-  
 }
 
 form {
@@ -81,16 +68,11 @@ form {
   flex-direction: column;
 }
 
-form label {
-  margin-bottom: 0.5em;
-  font-weight: bold;
-}
-
 form input,
 form textarea {
   margin-bottom: 1.5em;
   padding: 0.5em;
-  border: 1px solid white;
+  border: 1px solid rgb(14, 14, 14);
   border-radius: 4px;
   background-color: rgb(253, 251, 251);
   font-size: 1em;
@@ -98,12 +80,12 @@ form textarea {
 
 form input:focus,
 form textarea:focus {
-  border-color: black;
+  border-color: rgb(6, 6, 6);
   outline: none;
 }
 
 form button[type="button"] {
-  background-color: rgb(54, 53, 53);
+  background-color: rgb(103, 102, 102);
   color: var(--button-text-color);
   border: none;
   padding: 1em;
@@ -114,10 +96,10 @@ form button[type="button"] {
 }
 
 form button[type=button]:hover {
-  background-color: rgb(83, 82, 82);
+  background-color: rgb(108, 107, 107);
 }
+
 footer {
-  background-color: rgb(255, 255, 255); /*este es para que el fuder que dentro de la oja*/
   display: flex;  
   padding: 20px  ;
   color: #040404;
@@ -134,5 +116,5 @@ footer img {
 
 footer h4 {
   margin: 0;
-  font-size: 1em;
+
 }
